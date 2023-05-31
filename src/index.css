@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "Work Sans", sans-serif;
+  background-color: #f3f3f3;
+}
+.circle_gradient {
+  background: transparent linear-gradient(180deg, #ffffff00 0%, #d900d533 100%)
+    0% 0% no-repeat padding-box;
+}
