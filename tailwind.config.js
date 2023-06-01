@@ -13,6 +13,9 @@ export default {
         darkGrey: "#D5D5D5",
         yellow: "#FBB03B",
       },
+      screens: {
+        bgPc: "1640px",
+      },
     },
   },
   plugins: [],

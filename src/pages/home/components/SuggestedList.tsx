@@ -25,10 +25,10 @@ const Item = () => {
             }}
           />
         </div>
-        <div className="w-[205px] overflow-hidden relative">
-          <div className=" w-full h-[11px] bg-[#9B9B9B3B] rounded-[135px]"></div>
+        <div className="w-[180px] bgPc:w-[205px] overflow-hidden rounded-[135px] relative">
+          <div className=" w-full h-[11px] bg-[#9B9B9B3B] "></div>
           <div
-            className={`w-full h-[11px] bg-yellow rounded-[135px] left-0 top-0 absolute z-10 translate-x-[-60%] `}
+            className={`w-full h-[11px] bg-yellow  left-0 top-0 absolute z-10 translate-x-[-60%] `}
           ></div>
         </div>
       </div>

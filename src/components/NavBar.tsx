@@ -24,44 +24,48 @@ const NavBar = () => {
               <p className="text-white text-xl ">Jonathan Deo</p>
             </div>
           </div>
-          <div className="flex items-center gap-[47px]">
-            <ul className="list-none flex items-center gap-[30px]">
-              <li className="h-fit">
-                <img src="./img/image-1@1x.png" alt="" className="w-[43px]" />
-              </li>
-              <li>
-                <div className="text-[40px] relative">
-                  <NofitcationBadge
-                    value={20}
-                    className="absolute right-[-10px] top-[6px]"
-                  />
-                  <EmailIcon fontSize="inherit" htmlColor="#fff" />
-                </div>
-              </li>
-              <li>
-                <div className="text-[40px] relative">
-                  <NofitcationBadge
-                    value={20}
-                    className="absolute right-[-10px] top-[6px]"
-                  />
-                  <NotificationsIcon fontSize="inherit" htmlColor="#fff" />
-                </div>
-              </li>
-            </ul>
-            <div className="w-[398px] bg-strongPurple rounded-2xl h-[72px] flex items-center py-[21px] px-6 gap-4">
-              <img
-                src="./img/path-99-1@1x.png"
-                alt=""
-                className="w-[31px] h-[31px]"
-              />
-              <form>
-                <input
-                  type="text"
-                  placeholder="Search"
-                  className="bg-transparent text-white text-xl placeholder:text-white focus:outline-none"
+          <div className="flex items-center gap-[50px] bgPc:gap-[68px]">
+            <div className="flex items-center gap-[35px] bgPc:gap-[47px]">
+              <ul className="list-none flex items-center gap-[25px] bgPc:gap-[30px]">
+                <li className="h-fit">
+                  <img src="./img/image-1@1x.png" alt="" className="w-[43px]" />
+                </li>
+                <li>
+                  <div className="text-[40px] relative">
+                    <NofitcationBadge
+                      value={20}
+                      className="absolute right-[-10px] top-[6px]"
+                    />
+                    <EmailIcon fontSize="inherit" htmlColor="#fff" />
+                  </div>
+                </li>
+                <li>
+                  <div className="text-[40px] relative">
+                    <NofitcationBadge
+                      value={20}
+                      className="absolute right-[-10px] top-[6px]"
+                    />
+                    <NotificationsIcon fontSize="inherit" htmlColor="#fff" />
+                  </div>
+                </li>
+              </ul>
+              <div className="w-[300px] bgPc:w-[398px] bg-strongPurple rounded-2xl h-[72px] flex items-center py-[21px] px-6 gap-4">
+                <img
+                  src="./img/path-99-1@1x.png"
+                  alt=""
+                  className="w-[31px] h-[31px]"
                 />
-              </form>
+                <form>
+                  <input
+                    type="text"
+                    placeholder="Search"
+                    className="bg-transparent text-white text-xl placeholder:text-white focus:outline-none w-full"
+                  />
+                </form>
+              </div>
             </div>
+
+            <img src="./img/logo.png" alt="" className="w-[70px]" />
           </div>
         </div>
       </div>

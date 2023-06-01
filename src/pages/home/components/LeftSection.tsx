@@ -8,7 +8,7 @@ import MyPageList from "./MyPageList";
 const LeftSection = () => {
   const [activeSection, setActiveSection] = useState(0);
   return (
-    <aside className="w-[260px] pt-[80px]">
+    <aside className="w-[220px] bgPc:w-[260px] pt-[80px]">
       <div className="bg-white py-[11px] px-[17px] rounded-[10px] text-center mb-5">
         <p className="text-xl text-strongPurple mb-[19px]">Switch Account</p>
         <div className="w-full flex text-white">
@@ -29,7 +29,7 @@ const LeftSection = () => {
         </div>
       </div>
 
-      <ul className="bg-strongPurple pt-[32px] pb-[41px] px-[40px] list-none rounded-2xl shadow-[2px_6px_20px_#0000001C] flex flex-col gap-[40px]  text-xl mb-[110px]">
+      <ul className="bg-strongPurple pt-[32px] pb-[41px] px-[30px] bgPc:px-[40px] list-none rounded-2xl shadow-[2px_6px_20px_#0000001C] flex flex-col gap-[40px]  text-xl mb-[110px]">
         {sideNavOption.map((i, idx) => {
           const { value, Icon } = i;
           return (

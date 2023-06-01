@@ -9,10 +9,10 @@ const Item = () => {
         alt=""
         className="w-[47px] h-[47px]"
       />
-      <div className="flex flex-1 items-center gap-[18px]">
+      <div className="flex flex-1 items-center gap-[10px] bgPc:gap-[18px]">
         <div className="flex items-center flex-1 justify-between">
           <div>
-            <p className="text-[15px] text-strongPurple font-semibold">
+            <p className="text-[12px] text-strongPurple font-semibold">
               Rose Kooto
             </p>
             <p className="text-textGrey text-xs">Abuja</p>
